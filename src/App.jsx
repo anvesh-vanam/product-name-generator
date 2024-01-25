@@ -2,8 +2,7 @@ import { useState } from "react";
 import "./App.css";
 
 const API_KEY = import.meta.env.VITE_OPENAI_API_KEY;
-console.log(import.meta.env.VITE_SOME_KEY);
-console.log(API_KEY);
+
 function App() {
   const [prompt, setPrompt] = useState("");
   const [output, setOutput] = useState("");
